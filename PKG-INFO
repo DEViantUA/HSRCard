@@ -1,3 +1,20 @@
+Metadata-Version: 2.1
+Name: hsrcard
+Version: 1.0.1
+Summary: Module for generating Honkai Star Rail character cards
+Home-page: https://github.com/DEViantUA/StarRailCard
+Keywords: honkai,cards,generation,honkaistarraill,raill,starraill,builds
+Author: None
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: Pillow (>=10.0.1,<11.0.0)
+Requires-Dist: honkairail (>=1.1.0,<2.0.0)
+Project-URL: Repository, https://github.com/DEViantUA/StarRailCard
+Description-Content-Type: text/markdown
+
 <p align="center">
  <img src="https://raw.githubusercontent.com/DEViantUA/HSRCard/main/Documentation/Banner.png" alt="Banner"/>
 </p>
@@ -105,4 +122,5 @@ asyncio.run(main(700649319))
 
 # Thank the author for the code: 
 * [Patreon](patreon.com/deviantapi)
+
 
