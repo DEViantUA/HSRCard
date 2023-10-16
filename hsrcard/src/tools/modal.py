@@ -10,7 +10,13 @@ class Avatar(BaseModel):
     id: Optional[str]
     name: Optional[str]
     icon: Optional[str]
-    
+
+class SpaceInfo(BaseModel):
+    pass_area_progress: Optional[int]
+    light_cone_count: Optional[int]
+    avatar_count: Optional[int]
+    achievement_count: Optional[int]
+
 class PlayerV2(BaseModel):
     uid: Optional[str]
     nickname: Optional[str]
@@ -19,6 +25,8 @@ class PlayerV2(BaseModel):
     signature: Optional[str]
     friend_count: Optional[int]
     world_level: Optional[int]
+    birthday: Optional[str]
+    space_info: SpaceInfo
 
 class Card(BaseModel):
     id: Optional[str]
@@ -28,7 +36,6 @@ class Card(BaseModel):
     class Config:
         arbitrary_types_allowed = True
     size: Optional[tuple]
-    
 class Settings(BaseModel):
     uid: Optional[int]
     lang: Optional[str]
@@ -40,6 +47,7 @@ class HSRCard(BaseModel):
     settings: Settings
     player: PlayerV2
     card: Optional[Union[List[Card], Image.Image]] 
+    cards: Optional[Image.Image]
     name: Optional[str]
     id: Optional[str]
     class Config:
