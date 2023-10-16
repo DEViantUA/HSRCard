@@ -5,7 +5,7 @@
 # HSRCard
 Add-on module for generating Honkai Star Rail character cards in EnkaNetwork style
 
-* [PyPi](https://pypi.org/project/starrailcard/)
+* [PyPi](https://pypi.org/project/hsrcard/)
 * [EnkaNetwork](https://enka.network/)
 * [MiHoMo](https://discord.gg/SXwqeEqeEY)
 * [StarRailCard](https://github.com/DEViantUA/StarRailCard)
