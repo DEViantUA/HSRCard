@@ -17,6 +17,12 @@ Add-on module for generating Honkai Star Rail character cards in EnkaNetwork sty
 * honkairail 1.1.0
 ---
 
+## Installation:
+```
+pip install hsrcard
+```
+
+## Launch:
 ```py
 # Import necessary modules
 from hsrcard import hsr
