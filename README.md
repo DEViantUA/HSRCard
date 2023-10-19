@@ -105,5 +105,5 @@ asyncio.run(main(700649319))
 
 
 # Thank the author for the code: 
-* [Patreon](patreon.com/deviantapi)
+* **Patreon**: https://www.patreon.com/deviantapi
 
